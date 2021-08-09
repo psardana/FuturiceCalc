@@ -1,0 +1,28 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a61c1ebb_002De793_002D4270_002Daff2_002D7e1aedad2e8f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldReturnCorrectResponseForValidBase64Expression(&amp;quot;MSsxKzErMQ==&amp;quot;,4)" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.CalculusServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.IntegrationTests.CalculusApiTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.CalculusServiceV2Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ccd62d3a_002Df781_002D46b7_002D846d_002D02d5a1344d9a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.OperatorValidationServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.CalculusServiceTests.ShouldEvaluateExpressionsWithCorrectResult&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.CalculusServiceTests.ShouldReturnCorrectResultForSimpleExpression&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.CalculusServiceTests.ShouldReturnCorrectResultForExpression("(a/(5-2))-(2*5)","-9")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.CalculusServiceTests.ShouldThrowExceptionForAlphaNumericExpression&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.IntegrationTests.CalculusApiTests.ShouldThrowExceptionWhenInvalidBase64Expression&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.IntegrationTests.CalculusApiTests.ShouldHaveValidatorErrorWhenInvalidBase64Expression&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.IntegrationTests.CalculusApiTests.ShouldBeOfResponseTypeErrorResponseWhenInvalidBase64Expression&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.IntegrationTests.CalculusApiTests.ShouldReturnCorrectResponseForValidBase64Expression&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce93445b_002Debf4_002D46cc_002D858f_002D72bc3962dadc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CalculusServiceTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.UnitTests.CalculusServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::AC7D3E4B-02B5-4C7D-BD37-1B87C11C7C92::.NETCoreApp,Version=v3.1::FuturiceCalc.tests.IntegrationTests.CalculusApiTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestRunner/HangingTestRunnerResponse/@EntryValue">KillProcess</s:String></wpf:ResourceDictionary>

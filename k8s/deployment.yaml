@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "1"
+  labels:
+    app: futurice-calc-depl
+  name: futurice-calc-depl
+  namespace: futurice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: futurice-calc-depl
+  template:
+    metadata:
+      labels:
+        app: futurice-calc-depl
+    spec:
+      containers:
+      - image: eu.gcr.io/rise-foundation-event/my-images/futurice-calc-app:v1
+        imagePullPolicy: Always
+        name: futurice-calc-app
