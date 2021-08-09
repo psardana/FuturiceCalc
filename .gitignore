@@ -8,3 +8,5 @@ FuturiceCalc/bin
 /FuturiceCalc.tests/obj
 /.vs
 FuturiceCalc.tests/bin/
+obj
+bin
