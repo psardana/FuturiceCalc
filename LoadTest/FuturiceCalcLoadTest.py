@@ -2,9 +2,7 @@ from locust import task, constant
 from locust.contrib.fasthttp import FastHttpUser
 
 import json
-import random
 import gevent
-import csv
 
 class FuturiceCalcLoadTest(FastHttpUser):
 
