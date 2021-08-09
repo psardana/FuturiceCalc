@@ -1,0 +1,10 @@
+obj/
+FuturiceCalc/bin
+/bin
+/obj
+/FuturiceCalc/bin
+/FuturiceCalc/bin/obj
+/FuturiceCalc.tests/bin
+/FuturiceCalc.tests/obj
+/.vs
+FuturiceCalc.tests/bin/
