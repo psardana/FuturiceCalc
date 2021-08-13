@@ -24,7 +24,7 @@ namespace FuturiceCalc.tests.UnitTests
         public void ShouldReturnFalseWhenExpressionHasMoreThanAllowedOperators()
         {
             //Arrange
-            _configuration.SetupGet(m => m[It.Is<string>(s => s == "AllowedOperators")]).Returns("-+");
+            _configuration.SetupGet(m => m[It.Is<string>(s => s == "AllowedOperators")]).Returns("-,+");
 
             //Act
             var isValidExpression = _operatorValidationService.CheckForValidOperatorValidation("2*2");
@@ -37,7 +37,7 @@ namespace FuturiceCalc.tests.UnitTests
         public void ShouldReturnTrueWhenExpressionHasAllowedOperators()
         {
             //Arrange
-            _configuration.SetupGet(m => m[It.Is<string>(s => s == "AllowedOperators")]).Returns("-+*");
+            _configuration.SetupGet(m => m[It.Is<string>(s => s == "AllowedOperators")]).Returns("-,+,*");
 
             //Act
             var isValidExpression = _operatorValidationService.CheckForValidOperatorValidation("2*2");

@@ -27,7 +27,9 @@ namespace FuturiceCalc.Services
         public bool CheckForValidOperatorValidation(string expressionToBeValidated)
         {
             char[] allowedOperators = GetAllowedOperators();
-            string allowedCharsRegularExpression = GetAllowedCharExpression(allowedOperators);
+            string allowedCharsRegularExpression = allowedOperators != null 
+                ? GetAllowedCharExpression(allowedOperators) 
+                : throw new FormatException("No operators defined in the config for validation");
             string completeRegularExpression = $@"^(?:\d{allowedCharsRegularExpression}| )*$";
             return Regex.IsMatch(expressionToBeValidated, completeRegularExpression) && CheckForValidBrackets(expressionToBeValidated);
         }
@@ -44,14 +46,12 @@ namespace FuturiceCalc.Services
 
         private char[] GetAllowedOperators()
         {
-            char[] allowedOperators = Array.Empty<char>();
             string allowedOperatorsFromConfig = _configuration["AllowedOperators"];
             if (!string.IsNullOrWhiteSpace(allowedOperatorsFromConfig))
             {
-                allowedOperators = allowedOperatorsFromConfig.ToCharArray();
+                 return allowedOperatorsFromConfig.Split(',').Select(s => char.Parse(s)).ToArray();
             }
-
-            return allowedOperators;
+            return null;
         }
 
         private string GetAllowedCharExpression(char[] allowedOperators)
